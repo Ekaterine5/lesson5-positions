@@ -1,3 +1,35 @@
+
+/*header styles*/
+.logo {
+	display: inline-block;
+	margin-right: 119px;
+	margin-left: 140px;
+}
+.navigation {
+	display: inline-block;
+}
+.nav-li {
+	display: inline-block;
+	margin-right: 60px;
+	size: 16px;
+	text-transform: uppercase;
+	color: #181C28;
+
+}
+.header-wraper {
+	background-color: grey;
+	padding: 30px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+
+}
+body {
+	margin-top: 76px;
+}
+
+
 /*pseeudo elements*/
 .read {
 	color: #FF7A00;
@@ -10,5 +42,4 @@
 	background-color: #FF7A00;
 	display: inline-block;
 	margin-left: 20px;
-
 }
