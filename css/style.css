@@ -1,0 +1,14 @@
+/*pseeudo elements*/
+.read {
+	color: #FF7A00;
+	font-size: 14px;
+}
+.read::after {
+	content: " ";
+	width: 47px;
+	height: 4px;
+	background-color: #FF7A00;
+	display: inline-block;
+	margin-left: 20px;
+
+}
