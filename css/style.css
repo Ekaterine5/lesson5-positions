@@ -37,7 +37,7 @@ body {
 
 /*banner*/
 .image-wraper {
-	position: absolute;
+	position: relative;
 	width: 100%;
 }
 .banner-text1 {
@@ -56,15 +56,47 @@ body {
 	font-family: 'Playfair Display SC', serif;
 	letter-spacing: 1px;
 	size: 48px;
+}
 
+.title {
+	color: #FF7A00;
+	size: 22px;
+	margin-left: 172px;
+	margin-top: 83px;
+}
+
+/*box*/
+.left-box {
+	margin-left: 138px;
+	margin-top: 83px;
+	width: 636px;
+	display: inline-block;
+}
+.text-box1 {
+	color: #181C28;
+	font: 36px;
+	font-family: 'Playfair Display SC', serif;
+	margin-top: 20px;
+}
+.text-box2 {
+	color: #7B7B7B;
+	font: 16px;
+	margin-top: 22px;
+}
+.right-box {
+	display: inline-block;
+	width: 636px;
+	margin-left: 52px;
 }
 
 /*pseeudo elements*/
 .read {
 	color: #FF7A00;
 	font-size: 14px;
-	margin-left: 138px;
+	margin-top: 13px;
+
 }
+
 .read::after {
 	content: " ";
 	width: 47px;
@@ -72,28 +104,38 @@ body {
 	background-color: #FF7A00;
 	display: inline-block;
 	margin-left: 20px;
+
 }
 
 
 
 .box-wraper {
-	position: absolute;
+	position: relative;
 	width: 190px;
 	height: 70px;
 	background-color: #FF7A00;
-	top: 2168px;
+	margin-left: 705px;
+	margin-top: 66px;
+	margin-bottom: 135px;
+	
 
 }
-.text-box {
-	position: relative;
-	right: 0;
-	bottom: 0;
-	top: 2168px;
-
+.text-box-wraper {
+	position: absolute;
+	top: 30px;
+	left: 48px;
+	color: #FFFFFF;
 }
 
+.black-box {
+	width: 100%
+	
+}
 
-
+.black-image {
+	display: inline-block;
+	margin top: 135px;
+}
 
 /*footer*/
 .copyright {
