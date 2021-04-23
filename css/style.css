@@ -74,7 +74,7 @@ body {
 }
 .text-box1 {
 	color: #181C28;
-	font: 36px;
+	font-size: : 36px;
 	font-family: 'Playfair Display SC', serif;
 	margin-top: 20px;
 }
@@ -138,9 +138,41 @@ body {
 }
 
 /*footer*/
+
+.list-box {
+	margin-top: 81px;
+	margin-bottom: 139px;
+	margin-left: 138px;
+	display: inline-block;
+}
+.list {
+	display: inline-block;
+	margin-right: 200px;	
+}
+.list-title {
+	color: #282828;
+	text-transform: uppercase;
+	font-size: : 24px;
+	font-weight: bold;
+	
+}
+.list-style {
+	margin-top: 17px;
+	color: #7B7B7B;
+	font-size: 16px;
+}
+.list-logo {
+	margin-right: 10px;
+	vertical-align: middle;
+
+}
+
 .copyright {
 	position: fixed;
 	right: 142px;
-	bottom: 137px;
+	bottom: 50px;
+	color: #A4A4A4;
 
 }
+
+.
